@@ -246,7 +246,7 @@ body {
 
 // Buttons
 .widget {
-  .cta {
+  .btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -271,32 +271,32 @@ body {
   }
 
   // PRIMARY
-  .primary-cta {
+  .btn-primary {
     background-color: var(--widget-accent-color);
   }
 
-  .primary-cta:hover {
+  .btn-primary:hover {
     background-color: var(--widget-accent-hover-color);
   }
 
   // When the button is focused, you might see a blue outline around it. This is the default browser focus outline.
   // We can override this with box-shadow, to remove the default outline but for now I am keeping it.
-  .primary-cta:focus {
+  .btn-primary:focus {
     outline: 2px solid var(--widget-accent-color);
     outline-offset: 2px;
     box-shadow: none;
   }
 
   // SECONDARY
-  .secondary-cta {
+  .btn-secondary {
     background-color: var(--widget-secondary-color);
   }
 
-  .secondary-cta:hover {
+  .btn-secondary:hover {
     background-color: var(--widget-secondary-hover-color);
   }
 
-  .secondary-cta:focus {
+  .btn-secondary:focus {
     outline: 2px solid var(--widget-secondary-color);
     outline-offset: 2px;
     box-shadow: none;
