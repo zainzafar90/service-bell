@@ -25,10 +25,6 @@
   --expanded-widget-border: transparent;
   --expanded-widget-height: 40rem;
   --expanded-widget-width: 24rem;
-
-  --header-height: 100px;
-  --radius: clamp(48px, 4vw, 60px);
-  --logo-size: calc(calc(var(--radius) * 2) - 8px);
 }
 
 body {
