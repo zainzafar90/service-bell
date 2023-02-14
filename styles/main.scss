@@ -283,6 +283,8 @@ body {
     background-color: var(--widget-accent-hover-color);
   }
 
+  // When the button is focused, you might see a blue outline around it. This is the default browser focus outline.
+  // We can override this with box-shadow, to remove the default outline but for now I am keeping it.
   .primary-cta:focus {
     outline: 2px solid var(--widget-accent-color);
     outline-offset: 2px;
@@ -305,6 +307,7 @@ body {
   }
 }
 
+// UTILITIES
 .widget {
   .w-full {
     width: 100%;
