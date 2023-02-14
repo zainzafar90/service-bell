@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/main.scss" />
+    <title>Service Bell</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="widget-wrapper widget-wrapper--expanded">
+      <div class="widget">
+        <!-- Title and Logo -->
+        <div class="widget__content">
+          <div class="widget--mini">
+            <img class="widget__bell-logo" src="./img/bell.svg" />
+            <h5 class="widget__title">Talk to an expert</h5>
+          </div>
+
+          <div class="widget--expanded">
+            <img class="widget--expanded__logo" src="./img/logo-simple.png" />
+
+            <div class="widget--expanded__slide-over">
+              <div class="widget__avatars">
+                <div class="avatar">
+                  <img
+                    class="widget__avatar-img"
+                    src="./img/avatars/avatar-1.jpeg"
+                    alt="Avatar 1"
+                  />
+                </div>
+                <div class="avatar">
+                  <img
+                    class="widget__avatar-img"
+                    src="./img/avatars/avatar-2.jpeg"
+                    alt="Avatar 2"
+                  />
+                </div>
+                <div class="avatar">
+                  <span class="widget__avatar-img">Z</span>
+                </div>
+                <div class="avatar">
+                  <img
+                    class="widget__avatar-img"
+                    src="./img/avatars/avatar-3.jpeg"
+                    alt="Avatar 3"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Overlay -->
+          <div class="widget__overlay"></div>
+
+          <!-- Agent Video -->
+          <video
+            class="widget__video"
+            autoplay
+            muted
+            loop
+            width="100%"
+            height="100%"
+          >
+            <source src="./img/agent.mp4" type="video/mp4" />
+            <img
+              src="./img/agent.png"
+              title="Your browser does not support the <video> tag"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <!-- ./widget__content -->
+      </div>
+      <!-- ./widget -->
+    </div>
+    <!-- ./widget-wrapper -->
+
+    <script src="./app.js"></script>
+  </body>
+</html>
